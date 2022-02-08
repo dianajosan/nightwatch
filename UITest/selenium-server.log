@@ -1,0 +1,118 @@
+12:01:44.495 INFO - Selenium build info: version: '3.9.1', revision: '63f7b50'
+12:01:44.496 INFO - Launching a standalone Selenium Server on port 4444
+2022-02-08 12:01:44.598:INFO::main: Logging initialized @401ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2022-02-08 12:01:44.707:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T23:27:37+02:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2022-02-08 12:01:44.729:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@1f28c152{/,null,STARTING} has uncovered http methods for path: /
+2022-02-08 12:01:44.733:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@1f28c152{/,null,AVAILABLE}
+2022-02-08 12:01:44.767:INFO:osjs.AbstractConnector:main: Started ServerConnector@51cdd8a{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2022-02-08 12:01:44.768:INFO:osjs.Server:main: Started @570ms
+12:01:44.768 INFO - Selenium Server is up and running on port 4444
+2022-02-08 12:01:45.253:INFO:osjshC.ROOT:qtp1190524793-20: org.openqa.selenium.remote.server.WebDriverServlet-3ffc5af1: Initialising WebDriverServlet
+12:01:45.291 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@6aba84c7
+12:01:45.294 INFO - /session: Executing POST on /session (handler: BeginSession)
+12:01:45.350 INFO - Capabilities are: Capabilities {browserName: firefox, javascriptEnabled: true, marionette: true, name: Refactor Test}
+12:01:45.351 INFO - Capabilities {browserName: firefox, javascriptEnabled: true, marionette: true, name: Refactor Test} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1644314505437	geckodriver	INFO	Listening on 127.0.0.1:46646
+1644314506786	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gl/h26mc8k541g8c3118ssk84tdyf08tj/T/rust_mozprofilerz0X2e"
+1644314508405	Marionette	INFO	Marionette enabled
+2022-02-08 12:01:49.413 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSButton: 0x121f3e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.414 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSButton: 0x12ebb0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.415 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSButton: 0x12ebab400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.415 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSButton: 0x12ebabc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.416 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSButton: 0x12ebac000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.416 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ebad000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-02-08 12:01:49.417 firefox-bin[88617:7004980] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ef70800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gl/h26mc8k541g8c3118ssk84tdyf08tj/T/rust_mozprofilerz0X2e/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1644314510855	Marionette	INFO	Listening on port 54653
+12:01:50.984 INFO - Detected dialect: W3C
+12:01:51.059 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:51.060 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/url (handler: ServicedSession)
+12:01:52.415 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.416 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.459 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.459 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/743b4cc3-b582-48c6-9a68-ab78eb2710bb/displayed (handler: ServicedSession)
+12:01:52.521 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.521 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/title (handler: ServicedSession)
+12:01:52.536 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.537 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.567 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.568 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/a88c6562-5ab3-4de2-ba34-6ffa818b5061/displayed (handler: ServicedSession)
+12:01:52.600 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.601 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.617 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.617 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/3e4f0250-6660-4408-a252-b930740e64ce/displayed (handler: ServicedSession)
+12:01:52.646 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.647 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.666 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.666 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/3e4f0250-6660-4408-a252-b930740e64ce/displayed (handler: ServicedSession)
+12:01:52.747 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.748 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.766 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.766 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/889c4ace-1562-4013-9e02-1a661bcfee10/displayed (handler: ServicedSession)
+12:01:52.795 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.795 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:52.816 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:52.816 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/889c4ace-1562-4013-9e02-1a661bcfee10/click (handler: ServicedSession)
+12:01:53.142 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:53.143 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/title (handler: ServicedSession)
+12:01:53.656 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:53.657 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/title (handler: ServicedSession)
+12:01:53.906 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:53.907 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:54.062 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:54.063 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/1ba60d2b-8bf3-4187-b62b-76b487602e69/displayed (handler: ServicedSession)
+12:01:54.094 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:54.094 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:54.112 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:54.113 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/1ba60d2b-8bf3-4187-b62b-76b487602e69/click (handler: ServicedSession)
+12:01:56.051 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:56.051 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/title (handler: ServicedSession)
+12:01:56.115 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:56.116 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:56.136 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:56.136 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/2a715eb9-3487-4de1-8771-3b41470ff5b0/displayed (handler: ServicedSession)
+12:01:56.162 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:56.163 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:56.174 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:56.175 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/2a715eb9-3487-4de1-8771-3b41470ff5b0/click (handler: ServicedSession)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://unsplash.com"
+12:01:57.307 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.307 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/title (handler: ServicedSession)
+12:01:57.315 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.315 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.326 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.327 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/6ae3b43d-525c-4a94-99ba-638d9fda3ee6/value (handler: ServicedSession)
+12:01:57.355 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.355 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.366 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.367 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/d7c233f1-6286-49ce-85bd-b7c20eea49e9/value (handler: ServicedSession)
+12:01:57.394 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.394 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.404 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.404 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/e8bed52d-fc0f-4ab4-b28c-8a2ea55bf824/value (handler: ServicedSession)
+12:01:57.436 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.437 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.472 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.472 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/46329945-4794-486f-a9cf-cf77cd3cf8ee/value (handler: ServicedSession)
+12:01:57.502 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.502 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.511 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.511 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/0802ad5a-f06a-4cdf-b5e5-a14aa8e464b8/value (handler: ServicedSession)
+12:01:57.544 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.545 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.560 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.560 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing GET on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/e795b56d-6780-4928-8ac7-bae8926413ad/displayed (handler: ServicedSession)
+12:01:57.586 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.586 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/elements (handler: ServicedSession)
+12:01:57.595 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.595 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing POST on /session/bc313e87-a232-4a17-9f22-518a64b21f6e/element/e795b56d-6780-4928-8ac7-bae8926413ad/click (handler: ServicedSession)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://unsplash.com"
+12:01:57.653 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@705a4ff4
+12:01:57.653 INFO - Handler thread for session bc313e87-a232-4a17-9f22-518a64b21f6e (firefox): Executing DELETE on /session/bc313e87-a232-4a17-9f22-518a64b21f6e (handler: ServicedSession)
+1644314517657	Marionette	INFO	Stopped listening on port 54653
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+12:01:58.389 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@705a4ff4

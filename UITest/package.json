@@ -1,0 +1,17 @@
+{
+  "name": "refactortest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node nightwatch.conf.test.js",
+    "test-page": "nightwatch --config nightwatch.conf.test.js --test tests/testRefactor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^1.7.13"
+  }
+}

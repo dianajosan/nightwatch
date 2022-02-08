@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testRefactor"
+    errors="1" failures="0" hostname="" id="" package="testRefactor" skipped="2"
+    tests="1" time="0.004000" timestamp="">
+  
+    <testcase name="01. Launch the page " classname="testRefactor" time="0.004000" assertions="0">
+    <error message="client.page.commands is not a function" type="error"><![CDATA[
+    TypeError: client.page.commands is not a function
+    at Object.01. Launch the page  (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/tests/testRefactor.js:5:21)
+    at Context.call (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/context.js:376:35)
+    at TestCase.run (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.__runFn (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/index.js:384:80)
+    at Runnable.run (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/index.js:496:33)
+    at TestSuite.handleRunnable (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/index.js:501:18)
+    at /Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/testsuite/index.js:384:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (/Users/diana.josan/VSCodeProjects/RefactorTest/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: client.page.commands is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="02. Open the 3D Redners Section " classname="testRefactor">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="03. Submit  a photo  " classname="testRefactor">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
