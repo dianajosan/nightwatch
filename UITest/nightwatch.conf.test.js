@@ -42,7 +42,8 @@ module.exports = {
                 "secondNameInput": "Josan",
                 "emailAdressInput": "diana.josan06@yahoo.com",
                 "usernameInput": "dianajosan",
-                "passwordInput": "diana123456"
+                "passwordInput": "diana123456",
+                "serachedItem": "sky"
             },
             "desiredCapabilities": {
                 "browserName": "firefox",
