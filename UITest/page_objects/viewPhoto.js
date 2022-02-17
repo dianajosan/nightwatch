@@ -1,3 +1,5 @@
+const locators = require("../globals").locators.image;
+
 const viewPhoto={
 
     clickPhoto(){
@@ -20,31 +22,31 @@ module.exports={
     commands: [viewPhoto],
     elements: {
         firstPhoto: {
-            selector: '//*[@id="app"]/div/div[2]/div[3]/div[1]/div/div/div/div[1]/figure[1]/div/div/a/div', 
+            selector: locators.firstPhoto,
             locateStrategy: 'xpath',
         },
         viewTab: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[1]/div[1]', 
+            selector: locators.characteristic + locators.viewTab,
             locateStrategy: 'xpath',
         },
         downloadsTab: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[1]/div[2]', 
+            selector: locators.characteristic + locators.downloadsTab,
             locateStrategy: 'xpath',
         },
         featuredInTab: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[2]/div', 
+            selector: locators.characteristic + locators.featuredInTab,
             locateStrategy: 'xpath',
         },
         photoViews: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[1]/div[1]/span', 
+            selector: locators.characteristic + locators.photoViews,
             locateStrategy: 'xpath',
         },
         photoDownloads: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[1]/div[2]/span', 
+            selector: locators.characteristic + locators.photoDownloads,
             locateStrategy: 'xpath',
         },
         photoFeaturedIn: {
-            selector: '/html/body/div[4]/div/div/div[4]/div/div/div[1]/div[4]/div[2]/div/span', 
+            selector: locators.characteristic + locators.photoFeaturedIn,
             locateStrategy: 'xpath',
         }
     }

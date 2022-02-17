@@ -31,7 +31,6 @@ module.exports={
         client.page.search()
             .findSearchBar(client.globals.serachedItem)
             .findItem();
-            //client.end();
     },
     '07. Open the first photo recommended for the searched item  ': function (client) {
         client.page.viewPhoto()
