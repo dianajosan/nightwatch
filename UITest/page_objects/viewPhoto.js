@@ -6,8 +6,7 @@ const viewPhoto={
         return this
             .waitForElementVisible('@firstPhoto')
             .click('@firstPhoto')
-            //.assert.titleContains('above-cloud photo of blue skies photo - Free Sky Image on Unsplash');
-            .waitForElementVisible('@viewTab') 
+            .waitForElementVisible('@viewTab')
             .waitForElementVisible('@downloadsTab') 
             .waitForElementVisible('@featuredInTab')
             
