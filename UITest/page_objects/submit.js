@@ -2,7 +2,7 @@ const submit={
 
     submitAPhoto(){
         return this
-            .assert.titleContains('3D Renders | Unsplash')          
+            .assert.titleContains('3D Renders | Unsplash')
             //.click('@submitButton')
     }
 
